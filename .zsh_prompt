@@ -1,1 +1,3 @@
+#!/usr/bin/env zsh
+
 PROMPT=$'\n'"%F{yellow}%1~"$' '"%F{green}> %f"

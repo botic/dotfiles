@@ -45,3 +45,6 @@ command -v sha1sum > /dev/null || alias sha1sum="shasum"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Shows the full history instead of the last 16 lines
+alias history="history 1"

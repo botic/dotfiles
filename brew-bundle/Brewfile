@@ -1,0 +1,158 @@
+# Tap homebrew
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "adoptopenjdk/openjdk"
+
+##
+# Basic tools
+##
+
+cask "iterm2"
+cask "little-snitch"
+
+##
+# Command line tools
+##
+brew "nmap"
+brew "curl"
+brew "httrack"
+brew "wget"
+brew "tree"
+brew "jq"
+
+
+# GNU versions
+brew "gnu-sed"
+brew "gnu-tar"
+
+
+##
+# Browsers
+##
+
+# The default set
+cask "firefox"
+cask "firefox-developer-edition"
+cask "google-chrome"
+cask "microsoft-edge"
+
+# Sometimes useful
+brew "lynx"
+
+
+##
+# Office stuff and helpers
+##
+cask "microsoft-office"
+cask "dropbox"
+cask "google-drive-file-stream"
+
+
+##
+# Productivity
+##
+cask "netnewswire"
+cask "1password6"
+
+
+##
+# Multimedia
+##
+cask "spotify"
+cask "vlc"
+cask "inkscape"
+cask "flip4mac"
+cask "adobe-creative-cloud"
+
+
+##
+# Communication
+##
+cask "slack"
+cask "zoomus"
+cask "signal"
+cask "telegram"
+cask "whatsapp"
+
+
+##
+# Java via AdoptOpenJDK and related
+##
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
+cask "adoptopenjdk/openjdk/adoptopenjdk11"
+brew "maven"
+brew "ant"
+brew "gradle"
+brew "icu4c"
+
+
+##
+# Dev tools
+# Note: nvm for Node should be installed manually
+#
+##
+brew "svn"
+brew "git"
+cask "github"
+cask "tower"
+
+# Container stuff
+cask "docker"
+cask "google-cloud-sdk"
+
+# Databases
+cask "postgres"
+cask "postico"
+cask "sequel-pro"
+brew "sqlite3"
+
+brew "elasticsearch"
+brew "kibana"
+
+# Multimedia libs
+brew "lame"
+brew "ffmpeg"
+brew "libjpg"
+brew "libpng"
+brew "libtiff"
+brew "imagemagick"
+brew "graphicsmagick"
+cask "imageoptim"
+
+# Various tools
+cask "wireshark"
+cask "xquartz"
+cask "ngrok"
+brew "mkdocs"
+
+# IDEs and Editors
+cask "intellij-idea"
+cask "sublime-text"
+cask "visual-studio-code"
+
+
+##
+# Fonts
+##
+cask "font-ibm-plex"
+cask "font-jetbrains-mono"
+cask "font-josefin-slab"
+cask "font-josefin-sans"
+cask "font-kreon"
+cask "font-montserrat"
+cask "font-museo"
+cask "font-oswald"
+cask "font-open-sans"
+cask "font-pt-sans"
+cask "font-pt-serif"
+cask "font-pt-mono"
+cask "font-fira-code"
+cask "font-fira-mono"
+cask "font-fira-sans"
+cask "font-raleway"
+cask "font-roboto-condensed"
+cask "font-roboto-mono"
+cask "font-roboto-slab"
+cask "font-roboto"

@@ -11,6 +11,7 @@ tap "adoptopenjdk/openjdk"
 
 cask "iterm2"
 cask "little-snitch"
+cask "nightowl"
 
 ##
 # Command line tools

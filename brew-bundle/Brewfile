@@ -6,6 +6,28 @@ tap "homebrew/core"
 tap "adoptopenjdk/openjdk"
 
 ##
+# Mac App Store Interface
+#
+brew "mas"
+
+
+##
+# From the App Store
+##
+mas "Xcode", id: 497799835
+mas "Messenger", id: 1480068668
+mas "PDF Viewer - Annotation Expert", id: 1475494784
+mas "MeisterTask", id: 1051767777
+mas "Skitch - Snap. Mark up. Share.", id: 425955336
+mas "GrandPerspective", id: 1111570163
+
+# Good old iWork
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+
+##
 # Basic tools
 ##
 

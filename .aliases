@@ -48,3 +48,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Shows the full history instead of the last 16 lines
 alias history="history 1"
+
+# Creates a simple webserver
+alias webserver="python2 -m SimpleHTTPServer"

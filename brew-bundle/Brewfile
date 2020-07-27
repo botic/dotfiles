@@ -149,7 +149,7 @@ cask "wireshark"
 cask "xquartz"
 cask "ngrok"
 brew "mkdocs"
-brew "gnupg"
+cask "gpg-suite"
 
 # IDEs and Editors
 cask "intellij-idea"

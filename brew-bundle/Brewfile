@@ -45,6 +45,7 @@ brew "httrack"
 brew "wget"
 brew "tree"
 brew "jq"
+brew "svgo"
 
 
 # GNU versions

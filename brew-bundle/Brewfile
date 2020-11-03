@@ -35,6 +35,7 @@ cask "iterm2"
 cask "little-snitch"
 cask "nightowl"
 cask "kap"
+cask "cyberduck"
 
 ##
 # Command line tools

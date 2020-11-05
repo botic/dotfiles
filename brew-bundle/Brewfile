@@ -10,7 +10,6 @@ tap "adoptopenjdk/openjdk"
 #
 brew "mas"
 
-
 ##
 # From the App Store
 ##
@@ -36,6 +35,7 @@ cask "little-snitch"
 cask "nightowl"
 cask "kap"
 cask "cyberduck"
+cask "textexpander"
 
 ##
 # Command line tools

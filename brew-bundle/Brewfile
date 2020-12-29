@@ -154,6 +154,7 @@ cask "xquartz"
 cask "ngrok"
 brew "mkdocs"
 cask "gpg-suite"
+brew "ask-cli"
 
 # IDEs and Editors
 cask "intellij-idea"

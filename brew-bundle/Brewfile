@@ -155,6 +155,7 @@ cask "ngrok"
 brew "mkdocs"
 cask "gpg-suite"
 brew "ask-cli"
+brew "gradle"
 
 # IDEs and Editors
 cask "intellij-idea"
